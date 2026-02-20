@@ -3,7 +3,7 @@
 Welcome! This guide will take you from `npm init` to running a fully governed AI agent in your terminal. We'll build a simple "Tenant Rights" agent based on the provided `uk-law` skill pack, but the concepts apply universally to any domain.
 
 By the end of this tutorial, you will:
-1. Initialize a Mastra + OpenMandate project
+1. Initialise a Mastra + OpenMandate project
 2. Write a declarative Mandate (YAML)
 3. Create a Tool and a Skill Pack
 4. Run an interactive chat loop with your agent

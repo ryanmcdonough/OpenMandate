@@ -432,7 +432,7 @@ requirements:
     allowed_sources: ["nhs_choices", "nice_guidelines"]
     blocked_sources: ["wikipedia", "reddit"]
   human_review:
-    required_before: ["finalize_document"]
+    required_before: ["finalise_document"]
     review_prompt: "Please review this draft before using it."
   audit:
     log_level: "full"

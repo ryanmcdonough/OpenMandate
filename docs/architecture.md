@@ -10,7 +10,7 @@ Built on [Mastra](https://mastra.ai). Domain expertise is delivered through plug
 
 1. **Whitelist model** — Tools not in the mandate are never exposed to the agent
 2. **Declarative governance** — Everything an agent can/cannot do is declared in YAML, not scattered across code
-3. **Defense in depth** — Multiple overlapping processors enforce rules at different points in the lifecycle
+3. **Defence in depth** — Multiple overlapping processors enforce rules at different points in the lifecycle
 4. **Domain-agnostic core** — The framework knows nothing about law, healthcare, etc. — skill packs bring the expertise
 5. **Audit everything** — Every interaction is logged to SQLite for compliance
 

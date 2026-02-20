@@ -15,6 +15,7 @@ export default defineConfig({
                 text: 'Guide',
                 items: [
                     { text: 'Getting Started', link: '/getting-started' },
+                    { text: 'Why OpenMandate?', link: '/why-openmandate' },
                     { text: 'Architecture & Reference', link: '/architecture' },
                     { text: 'Building Skill Packs', link: '/building-skills' },
                     { text: 'Core Skills (Standard Lib)', link: '/core-skills' }
