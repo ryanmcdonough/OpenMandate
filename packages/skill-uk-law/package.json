@@ -1,0 +1,17 @@
+{
+    "name": "@openmandate/skill-uk-law",
+    "version": "0.1.0",
+    "type": "module",
+    "description": "UK Law skill pack for OpenMandate — legal information tools for England & Wales",
+    "main": "index.ts",
+    "openmandate": {
+        "type": "skill-pack"
+    },
+    "dependencies": {
+        "zod": "^3.23.0"
+    },
+    "peerDependencies": {
+        "@mastra/core": "latest"
+    },
+    "license": "MIT"
+}

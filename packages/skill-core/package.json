@@ -1,0 +1,17 @@
+{
+    "name": "@openmandate/skill-core",
+    "version": "0.1.0",
+    "type": "module",
+    "description": "Standard library skill pack for OpenMandate",
+    "main": "index.ts",
+    "openmandate": {
+        "type": "skill-pack"
+    },
+    "dependencies": {
+        "zod": "^3.23.0"
+    },
+    "peerDependencies": {
+        "@mastra/core": "latest"
+    },
+    "license": "MIT"
+}

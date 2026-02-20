@@ -1,0 +1,49 @@
+{
+    "name": "openmandate",
+    "version": "0.1.0",
+    "type": "module",
+    "description": "Mandate-governed AI agent framework built on Mastra",
+    "scripts": {
+        "dev": "mastra dev",
+        "build": "tsc",
+        "start": "node dist/index.js",
+        "cli": "tsx src/cli/index.ts",
+        "test": "vitest",
+        "chat": "tsx examples/chat.ts",
+        "whatsapp": "tsx examples/whatsapp.ts",
+        "validate": "tsx src/cli/index.ts validate",
+        "inspect": "tsx src/cli/index.ts inspect",
+        "audit": "tsx src/cli/index.ts audit",
+        "docs:dev": "vitepress dev docs",
+        "docs:build": "cd examples/mandate-builder && npm i && npm run build && mkdir -p ../../docs/public/builder && cp -r dist/* ../../docs/public/builder/ && cd ../.. && vitepress build docs",
+        "docs:preview": "vitepress preview docs"
+    },
+    "workspaces": [
+        "packages/*"
+    ],
+    "dependencies": {
+        "@ai-sdk/anthropic": "latest",
+        "@ai-sdk/openai": "latest",
+        "@mastra/core": "latest",
+        "@mastra/libsql": "latest",
+        "@mastra/memory": "latest",
+        "better-sqlite3": "^11.0.0",
+        "chalk": "^5.0.0",
+        "commander": "^12.0.0",
+        "discord.js": "^14.0.0",
+        "dotenv": "^16.6.1",
+        "node-telegram-bot-api": "^0.66.0",
+        "yaml": "^2.4.0",
+        "zod": "^3.23.0"
+    },
+    "devDependencies": {
+        "@types/better-sqlite3": "^7.0.0",
+        "@types/node": "^22.0.0",
+        "@types/node-telegram-bot-api": "^0.64.0",
+        "tsx": "^4.0.0",
+        "typescript": "^5.9.3",
+        "vitepress": "^1.6.4",
+        "vitest": "^2.0.0"
+    },
+    "license": "MIT"
+}
